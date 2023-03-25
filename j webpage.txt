@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: century gothic;
+color: #f2f2b9;
+padding: 10px;
+background: #c9c496;
+}
+
+/* Header/Blog Title */
+.header {
+padding: 30px;
+text-align: center;
+background: #494837;
+}
+
+.header h1 {
+font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #9d9c77;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f0b7;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #474736;
+color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+background-color: #c5c599;
+float: left;
+width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #6d6d57;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background-color: #9d9c77;
+width: 100%;
+padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: #444436;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 10px;
+text-align: center;
+background: #9d9c77;
+color: #414134;
+text-align: center;
+text-decoration: none;
+margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>*:･ﾟ✧*:･ jasmine *:･ﾟ✧*:･</h1>
+<p>today you are one choice away from everything you ever dreamed of, just be brave enough to choose</p>
+</div>
+
+<div class="topnav">
+<a href="https://www.facebook.com/maybenonexistent">Facebook</a>
+<a href="https://www.instagram.com/jrxxse/">Instagram</a>
+<a href="https://www.youtube.com/@ArianaGrande/featured">YouTube</a>
+<a href="#" style="float:right">Back</a>
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>INTEREST</h2>
+<h5>2.10.23</h5>
+<div class="fakeimg" style="height:10px;"></div>
+<p>There are a few things that have changed for me such as hobbies and values, but my dream remains the same. As time goes by, people really change, I've noticed that on myself, most especially. </p>
+<p>In terms of talent and skills, I think my English speaking has improved a lot better than before. Now, I'm not that interested in calligraphy either. Because of the pandemic, my perspective on how I value my loved ones really changed, I learned that I should not waste the time I have with them. In terms of ideals, I really only want one thing now and that is to finish my education to pay my parents' hardwork and effort back. My ambition didn't change, even then, I wanted to be a fashion designer and create amazing dresses and ball gowns that is enough to featured on international fashion weeks.
+</p>
+</div>
+<div class="card">
+<h2>REFLECTION</h2>
+<h5>2.17.23</h5>
+<div class="fakeimg" style="height:10px;"></div>
+<p>My life has always been hampered by obstacles, may it be caused by individuals or circumstances. As much as we strive to avoid harm, it lives with life and it is inevitable. However, for every hurdle we have come up against, someone has attempted to warn and advise me so that I can be more vigilant.</p>
+<p>The only person that I believe has always tried to keep an eye on me is my mother. Since my father departed, she has been the only one who has stood by me, whether in merriment or sorrow. There was never a time that she tried not to protect me. There were instances where I tried to go against her and that was before when I never realized that she just did it to protect me. This is something that most of us are oblivious of. We are constantly protected, but it is up to us whether we employ that protection for our own security or not.</p>
+<p>It depends on if others constantly buckle up, and on whether I pay attention to others. Without her, I would have led a tumultuous life and chosen the wrong path. In the absence of her protection, I would've crashed by now.</p>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2>Jasmine Reese B. Guingguing</h2>
+<img src="jasmine.jpg" style="height:260px; width:235px;">
+
+</div>
+
+<p>
+<b>PROFILE</b>
+<br>
+<br>
+Nickname: Mine
+<br>
+<br>
+Birthdate: 28 April 2007
+<br>
+<br>
+Age: 15
+<br>
+<br>
+Zodiac: Taurus
+<br>
+<br>
+MBTI: ENFP
+<br>
+<br>
+<br>
+<b>INTERESTS</b>
+<br>
+<br>
+Hobbies: Dancing & Singing
+<br>
+<br>
+Colors: Black & White
+<br>
+<br>
+Ambition: Fashion Designer
+<br>
+<br>
+<br>
+<b>EDUCATION</b>
+<br>
+<br>
+Level: JHS 10
+<br>
+<br>
+School: University of Cebu - LM</p>
+</div>
+<div class="card">
+<h3>Me, Myself, and I</h3>
+<p>
+<p></p>
+<div class="fakeimg">
+<p>
+My Favourite Clothes
+<br>
+<b>RINI</b>
+<br>
+0:00 ━━━━━━━|◀  ▐▐   ▶|━━━━━━━ 4:17
+<div>
+<img src="jasmine collage.jpg"></div>
+>
+</p>
+</div>
+<br>
+<div>
+<img src="jasmine collage.jpg">
+</div>
+<div class="fakeimg"><p></p></div>
+
+
+</div>
+<div class="card">
+<h3>Follow Me</h3>
+<p>Facebook: Jasmine Reese Baynos Guingguing</p>
+<p>Instagram: @jrxxse</p>
+<p>Email: guingguingjasminereese@gmail.com
+</div>
+</div>
+</div>
+
+<div class="footer">
+<h2>Thank you for visiting my Page!</h2>
+</div>
+
+</body>
+</html>
